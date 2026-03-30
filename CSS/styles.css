@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+}
+
+.user-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}

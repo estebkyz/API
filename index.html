@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+    <div class="container text-center mt-4">
+        <h2>Directorio de usuarios</h2>
+        <button id="btnActualizar" class="btn btn-primary my-3">Cargar usuarios</button>
+
+        <div id="catalogoProductos" class="row g-4"></div>
+    </div>
+
+    <div id="modalPerfil" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content text-center p-4">
+                <img id="imagenModal" src="" class="rounded-circle mx-auto mb-3" width="120" alt="Avatar">
+                <h4 id="tituloModal"></h4>
+                <p id="ubicacionModal" class="text-secondary"></p>
+                <hr>
+                <p><strong>Email:</strong> <span id="emailModal"></span></p>
+                <p><strong>Tel:</strong> <span id="telefonoModal"></span></p>
+                <p><strong>Edad:</strong> <span id="edadModal"></span> años</p>
+                <button class="btn btn-secondary mt-3" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/api.js"></script>
+</body>
+
+</html>
